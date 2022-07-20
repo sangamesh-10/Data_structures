@@ -143,15 +143,9 @@ public class double_ll {
         System.out.println("5.print the complete list");
         System.out.println("6.Delete an element");
         System.out.println("7.stop the process");
-        while(temp){
-       
-        
+        while(temp){        
         System.out.print("\nenter the option and press enter<-/  :");
-        
-        int i = sc.nextInt();
-        
-
-        
+        int i = sc.nextInt();  
         switch (i) {
             case 1:
                 System.out.print("\nenter the element to be inserted-->");
