@@ -70,15 +70,16 @@ public class queueAdt_linked {
 		    System.out.println("Queue is empty...No elements to display.");
 		    return;
 		}
-		System.out.println("\n Front-->{");
+		System.out.print("\n Front-->{ ");
 		while(itr!=null){
 		    if(itr.next==null){
 		        System.out.print(itr.data);
 		        break;
 		    }
-		    System.out.print(itr.data + ",");
+		    System.out.print(itr.data + " , ");
+		    itr = itr.next;
 		}
-		System.out.println("}<--Rear");
+		System.out.println(" }<--Rear");
 		return;
 	}
 	public static void main(String[] args) {
